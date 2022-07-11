@@ -29,7 +29,7 @@ function Search () {
     return (
         <div className="container">
             <h2 className="title">
-            Resultados para: <span className="query-text">{query}</span>
+                Resultados para: <span className="query-text">{query}</span>
             </h2>
         <div className="movies-container">
             {movies.length > 0 &&
